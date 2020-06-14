@@ -1,0 +1,8 @@
+{
+  "name": "ts-apollo-prisma-zero",
+  "version": "1.0.0",
+  "description": "Typescript apollo prisma boilerplate",
+  "repository": "https://github.com/smallbee3/ts-apollo-prisma-zero.git",
+  "author": "smallbee3 <smallbee3@gmail.com>",
+  "license": "MIT"
+}
