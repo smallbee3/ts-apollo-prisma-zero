@@ -5,6 +5,21 @@
   "repository": "https://github.com/smallbee3/ts-apollo-prisma-zero.git",
   "author": "smallbee3 <smallbee3@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --no-notify --respawn --transpile-only src/server.ts",
+    "start": "node dist/server",
+    "clean": "rm -rf dist",
+    "build": "npm -s run clean && npm -s run generate && tsc",
+    "lint": "eslint src/**/**/*.ts tests/**/**/*.ts",
+    "tsc": "tsc",
+    "generate": "npm -s run generate:prisma && npm -s run generate:nexus",
+    "generate:prisma": "prisma generate",
+    "generate:nexus": "ts-node --transpile-only src/schema",
+    "postinstall": "npm -s run generate",
+    "migrate:save": "prisma migrate save --experimental",
+    "migrate:up": "prisma migrate up --experimental",
+    "migrate:down": "prisma migrate down 1 --experimental"
+  },
   "dependencies": {
     "@nexus/schema": "^0.14.0",
     "apollo-server": "^2.15.1",
