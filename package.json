@@ -6,7 +6,10 @@
   "author": "smallbee3 <smallbee3@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^2.15.1"
+    "@nexus/schema": "^0.14.0",
+    "apollo-server": "^2.15.1",
+    "nexus": "^0.25.0",
+    "nexus-plugin-prisma": "^0.16.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.6.1",
