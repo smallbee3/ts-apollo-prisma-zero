@@ -5,6 +5,9 @@
   "repository": "https://github.com/smallbee3/ts-apollo-prisma-zero.git",
   "author": "smallbee3 <smallbee3@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.15.1"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.6.1",
     "@typescript-eslint/parser": "^3.6.1",
