@@ -9,11 +9,14 @@
     "@nexus/schema": "^0.14.0",
     "apollo-server": "^2.15.1",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^8.5.1",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-subscriptions": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",    
     "nexus": "^0.25.0",
     "nexus-plugin-prisma": "^0.16.1"
   },
   "devDependencies": {
+    "@types/graphql-iso-date": "^3.4.0",
     "@typescript-eslint/eslint-plugin": "^3.6.1",
     "@typescript-eslint/parser": "^3.6.1",
     "dotenv": "^8.2.0",
