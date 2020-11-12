@@ -17,6 +17,8 @@ const apollo = new ApolloServer({
 });
 apollo.applyMiddleware({ app });
 
+apollo.installSubscriptionHandlers(server);
+
 server.listen({ port: PORT }, () => {
   process.stdout.write(
     `🚀 Server ready at http://localhost:${PORT}${apollo.graphqlPath}\n`,
