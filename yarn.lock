@@ -3321,9 +3321,9 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
 object-path@^0.11.4:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
-  integrity sha1-NwrnUvvzfePqcKhhwju6iRVpGUk=
+  version "0.11.8"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.8.tgz#ed002c02bbdd0070b78a27455e8ae01fc14d4742"
+  integrity sha512-YJjNZrlXJFM42wTBn6zgOJVar9KFJvzx6sTWDte8sWZF//cnjl0BxHNpfZx+ZffXX63A9q0b1zsFiBX4g4X5KA==
 
 object.assign@^4.1.0:
   version "4.1.0"
@@ -4602,9 +4602,10 @@ unc-path-regex@^0.1.2:
   resolved "https://registry.yarnpkg.com/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
   integrity sha1-5z3T17DXxe2G+6xrCufYxqadUPo=
 
-"undici@github:mcollina/undici":
-  version "1.1.0"
-  resolved "https://codeload.github.com/mcollina/undici/tar.gz/d448757be9b20192c1ee66a8cd2c56154e3209dc"
+undici@mcollina/undici:
+  version "4.6.0"
+  uid "1e1a6db94e95c1c79e953e8c64c6c8f389bf323a"
+  resolved "https://codeload.github.com/mcollina/undici/tar.gz/1e1a6db94e95c1c79e953e8c64c6c8f389bf323a"
 
 unique-string@^2.0.0:
   version "2.0.0"
